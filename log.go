@@ -171,8 +171,8 @@ func outLogs(level Level, v ...interface{}) {
 	default:
 		// log.Println(levelFlags[level], v)
 	}
-	
-	log.Println(setPrefix(level), v)
+
+	// log.Println(setPrefix(level), v)
 	// logger.Println(levelFlags[level], v)
 	// setPrefix(level)
 	// logger.Println(v)
